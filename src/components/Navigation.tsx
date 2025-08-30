@@ -53,9 +53,14 @@ export const Navigation: React.FC = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden bg-gray-900/95 backdrop-blur-md border-t border-gray-700 animate-slide-up">
             <div className="px-4 py-6">
-              <button className="w-full px-4 py-2 text-sm bg-brand-red-600 text-white font-inter font-medium rounded-md hover:bg-brand-red-700 transition-colors duration-200">
+              <a
+                href="https://app.engineeria.in"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full px-4 py-2 text-sm bg-brand-red-600 text-white font-inter font-medium rounded-md hover:bg-brand-red-700 transition-colors duration-200"
+              >
                 Login / Sign Up
-              </button>
+              </a>
             </div>
           </div>
         )}

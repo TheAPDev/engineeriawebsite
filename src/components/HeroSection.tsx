@@ -22,19 +22,19 @@ export const HeroSection: React.FC = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
-          <h1 className="font-montserrat font-bold text-4xl sm:text-5xl lg:text-7xl xl:text-8xl text-white leading-tight mb-6 drop-shadow-lg">
+          <h1 className="font-montserrat font-bold text-3xl xs:text-4xl sm:text-5xl lg:text-7xl xl:text-8xl text-white leading-tight mb-4 sm:mb-6 drop-shadow-lg">
             <span className="block">Engineeria</span>
           </h1>
-          <p className="font-montserrat font-medium text-xl sm:text-2xl lg:text-3xl text-gray-200 mb-12 animate-slide-up">
+          <p className="font-montserrat font-medium text-base xs:text-lg sm:text-2xl lg:text-3xl text-gray-200 mb-8 sm:mb-12 animate-slide-up">
             "Engineers ka pehla pyaar"
           </p>
         </div>
       </div>
 
       {/* Double Shadow Arrow Down Indicator at Bottom Center */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center">
+      <div className="absolute bottom-6 sm:bottom-10 left-1/2 transform -translate-x-1/2 z-20 flex flex-col items-center">
         <span className="animate-bounce">
-          <ArrowRight style={{ transform: 'rotate(90deg)', filter: 'drop-shadow(0 2px 6px #fff) drop-shadow(0 0px 16px #3d5a80)' }} size={48} className="text-gray-200" />
+          <ArrowRight style={{ transform: 'rotate(90deg)', filter: 'drop-shadow(0 2px 6px #fff) drop-shadow(0 0px 16px #3d5a80)' }} size={36} className="text-gray-200 sm:text-4xl" />
         </span>
       </div>
     </section>
