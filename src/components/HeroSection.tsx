@@ -22,12 +22,12 @@ export const HeroSection: React.FC = () => {
 
 
 
-      <div className="relative z-10 max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 text-center">
-        <div className="animate-fade-in">
-          <h1 className="font-montserrat font-bold text-3xl sm:text-5xl lg:text-7xl xl:text-8xl text-white leading-tight mb-4 sm:mb-6 drop-shadow-lg">
+      <div className="relative z-10 max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 flex flex-col items-center justify-center text-center">
+        <div className="animate-fade-in w-full flex flex-col items-center justify-center">
+          <h1 className="font-montserrat font-bold text-3xl sm:text-5xl lg:text-7xl xl:text-8xl text-white leading-tight mb-4 sm:mb-6 drop-shadow-lg text-center">
             <span className="block">Engineeria</span>
           </h1>
-          <p className="font-montserrat font-medium text-base sm:text-xl lg:text-3xl text-gray-200 mb-8 sm:mb-12 animate-slide-up">
+          <p className="font-montserrat font-medium text-base sm:text-xl lg:text-3xl text-gray-200 mb-8 sm:mb-12 animate-slide-up text-center">
             "Engineers ka pehla pyaar"
           </p>
         </div>
