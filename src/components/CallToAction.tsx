@@ -13,7 +13,12 @@ export const CallToAction: React.FC = () => {
           <p className="font-inter text-lg lg:text-xl text-gray-300 mb-6 max-w-2xl mx-auto leading-relaxed">
             Join thousands of engineers who trust Engineeria to find their perfect opportunities. Sign up now and unlock access to exclusive internships, hackathons, and a supportive community.
           </p>
-          <a href="#" className="inline-flex items-center px-6 py-3 bg-brand-red-500 text-white font-bold rounded-lg shadow-lg hover:bg-brand-red-600 transition-all duration-200">
+          <a
+            href="https://app.engineeria.in/auth"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-6 py-3 bg-brand-red-500 text-white font-bold rounded-lg shadow-lg hover:bg-brand-red-600 transition-all duration-200"
+          >
             Get Started
             <ArrowRight className="ml-2" size={22} />
           </a>
