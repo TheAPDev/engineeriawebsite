@@ -14,7 +14,7 @@ export const CallToAction: React.FC = () => {
             Join thousands of engineers who trust Engineeria to find their perfect opportunities. Sign up now and unlock access to exclusive internships, hackathons, and a supportive community.
           </p>
           <a
-            href="https://app.engineeria.in/auth"
+            href="https://app.engineeria.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-brand-red-500 text-white font-bold rounded-lg shadow-lg hover:bg-brand-red-600 transition-all duration-200"
