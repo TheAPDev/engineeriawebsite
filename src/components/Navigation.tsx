@@ -30,9 +30,14 @@ export const Navigation: React.FC = () => {
 
           {/* Desktop Navigation */}
           <div className="flex-1 hidden md:flex items-center justify-end">
-            <button className="px-4 py-1.5 text-sm bg-brand-red-600 text-white font-inter font-medium rounded-md hover:bg-brand-red-700 transition-all duration-200">
+            <a
+              href="https://app.engineeria.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-1.5 text-sm bg-brand-red-600 text-white font-inter font-medium rounded-md hover:bg-brand-red-700 transition-all duration-200"
+            >
               Login / Sign Up
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
