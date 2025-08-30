@@ -19,17 +19,14 @@ export const Navigation: React.FC = () => {
       isScrolled ? 'bg-gray-900/90 backdrop-blur-md shadow-lg' : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 lg:h-20">
-          <div className="flex-1"></div>
-          
-          <div className="flex-1 flex justify-center">
-            <div className="font-montserrat font-bold text-xl lg:text-2xl text-white">
+        <div className="flex w-full items-center h-16 lg:h-20">
+          <div className="flex w-full justify-center items-center">
+            <div className="font-montserrat font-bold text-xl lg:text-2xl text-white text-center w-full">
               Engineeria
             </div>
           </div>
-
           {/* Desktop Navigation */}
-          <div className="flex-1 hidden md:flex items-center justify-end">
+          <div className="hidden md:flex items-center justify-end absolute right-0 top-0 h-16 lg:h-20 pr-4">
             <a
               href="https://app.engineeria.in"
               target="_blank"

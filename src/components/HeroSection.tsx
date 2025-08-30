@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 export const HeroSection: React.FC = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-12 sm:pt-16 lg:pt-20 overflow-hidden flex-col">
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
       {/* Animated Dark Blue Gradient Overlay with moving light spots */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div className="absolute inset-0 w-full h-full" style={{background: 'linear-gradient(120deg, #181c2b 0%, #232946 60%, #0a192f 100%)', opacity: 0.98}}></div>
@@ -22,18 +22,14 @@ export const HeroSection: React.FC = () => {
 
 
 
-      <div className="relative z-10 max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 w-full flex flex-col items-center justify-center text-center">
-        <div className="animate-fade-in w-full flex flex-col items-center justify-center">
-          <div className="w-full flex justify-center items-center">
-            <h1 className="font-montserrat font-bold text-3xl sm:text-5xl lg:text-7xl xl:text-8xl text-white leading-tight mb-4 sm:mb-6 drop-shadow-lg text-center">
-              Engineeria
-            </h1>
-          </div>
-          <div className="w-full flex justify-center items-center">
-            <p className="font-montserrat font-medium text-base sm:text-xl lg:text-3xl text-gray-200 mb-8 sm:mb-12 animate-slide-up text-center">
-              "Engineer's ka pehla pyaar"
-            </p>
-          </div>
+      <div className="relative z-10 max-w-7xl mx-auto px-2 sm:px-4 lg:px-8 w-full flex flex-1 flex-col items-center justify-center text-center min-h-[60vh]">
+        <div className="animate-fade-in w-full flex flex-col items-center justify-center h-full">
+          <h1 className="font-montserrat font-bold text-3xl sm:text-5xl lg:text-7xl xl:text-8xl text-white leading-tight mb-4 sm:mb-6 drop-shadow-lg text-center w-full">
+            Engineeria
+          </h1>
+          <p className="font-montserrat font-medium text-base sm:text-xl lg:text-3xl text-gray-200 mb-8 sm:mb-12 animate-slide-up text-center w-full">
+            "Engineer's ka pehla pyaar"
+          </p>
         </div>
       </div>
 
