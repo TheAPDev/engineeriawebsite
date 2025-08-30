@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 export const CallToAction: React.FC = () => {
   return (
-    <section className="py-10 lg:py-16 bg-gray-900 relative overflow-hidden">
+    <section className="py-10 lg:py-16 bg-gradient-to-br from-[#181c2b] via-[#232946] to-[#0a192f] relative overflow-hidden">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="animate-fade-in">
           <h2 className="font-montserrat font-bold text-4xl lg:text-5xl text-white mb-4">

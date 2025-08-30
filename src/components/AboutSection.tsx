@@ -2,7 +2,7 @@ import React from 'react';
 
 export const AboutSection: React.FC = () => {
   return (
-    <section className="py-20 lg:py-32 bg-gray-900">
+    <section id="about-engineeria" className="py-20 lg:py-32 bg-gradient-to-br from-[#181c2b] via-[#232946] to-[#0a192f]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
           <h2 className="font-montserrat font-bold text-3xl lg:text-4xl text-white mb-8">

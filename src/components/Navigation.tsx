@@ -49,19 +49,17 @@ export const Navigation: React.FC = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Mobile Navigation - Only Login/Sign Up Button */}
         {isMobileMenuOpen && (
-          <div className="md:hidden bg-gray-900/95 backdrop-blur-md border-t border-gray-700 animate-slide-up">
-            <div className="px-4 py-6">
-              <a
-                href="https://app.engineeria.in"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full px-4 py-2 text-sm bg-brand-red-600 text-white font-inter font-medium rounded-md hover:bg-brand-red-700 transition-colors duration-200"
-              >
-                Login / Sign Up
-              </a>
-            </div>
+          <div className="md:hidden bg-[#181c2b]/95 backdrop-blur-md border-t border-gray-700 animate-slide-up flex justify-center items-center py-6">
+            <a
+              href="https://app.engineeria.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full max-w-xs px-4 py-2 text-sm bg-brand-red-600 text-white font-inter font-medium rounded-md hover:bg-brand-red-700 transition-colors duration-200 text-center"
+            >
+              Login / Sign Up
+            </a>
           </div>
         )}
       </div>
